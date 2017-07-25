@@ -1,0 +1,61 @@
+/* <main> */
+html, 
+body,
+.main {
+    height: 100%;
+}
+.main .row-content {
+    min-height: 90%;
+}
+.col-area-details {
+    visibility: hidden;
+}
+.col-area-details .row-advertisers {
+    height: 100px;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.col-area-details .row-advertisers .span6{
+    margin: 0px 0px 0px 0px;
+}
+.col-area-details .row-advertisers .span6.adv-end {
+    border-bottom: 2px solid #5bc0de;
+}
+.col-area-details .row-advertisers .span6.title {
+    text-align: left;
+}
+.col-area-details .row-advertisers .span6.adv {
+    text-align: right;
+}
+
+.col-area-details .row-controls input.area-frequency {
+    width: 50px;
+}
+/* </main> */
+
+/* <map> */
+.col-map {
+    height: 390px;
+}
+
+#map-container {
+    height: 390px;
+}
+
+.textOverlay {
+    border: 1px solid black;
+    color: #ffffff;
+    
+    opacity: 0.7;
+    
+    position: absolute;
+}
+.textOverlay .area-content {
+    background: #3a87ad;
+}
+.textOverlay .area-content.area-enabled {
+    background: #468847;
+}
+/* </map> */

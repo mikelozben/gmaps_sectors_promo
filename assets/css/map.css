@@ -1,0 +1,34 @@
+/* <main> */
+html, 
+body,
+.main {
+    height: 100%;
+}
+.main .row-content {
+    min-height: 90%;
+}
+.main .row-driving-schools {
+    display: none;
+    
+    height: 172px;
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.main .row-driving-schools .col-driving-school {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 0px;
+    
+    border-bottom: 2px solid #5bc0de;
+}
+/* </main> */
+
+/* <map> */
+.col-map {
+    height: 390px;
+}
+
+#map-container {
+    height: 390px;
+}
+/* </map> */

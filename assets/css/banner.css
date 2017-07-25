@@ -1,0 +1,11 @@
+/* <banner> */
+.row-banner .banner h3{
+    margin: 10px 0px 0px 0px;
+}
+.row-banner {
+    height: 10%;
+    min-height: 50px;
+    
+    overflow: hidden;
+}
+/* </banner> */
